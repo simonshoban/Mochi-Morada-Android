@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/location_name"/>
+
+    <EditText
+        android:id="@+id/location_name_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/name_label"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/name_label"
+        android:textSize="16sp"
+        android:hint="@string/name_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_label"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/location_type"/>
+
+    <Spinner
+        android:id="@+id/location_type_old"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/name_label"
+        android:layout_alignBaseline="@id/type_label"
+        android:layout_marginStart="6dp"
+        android:textSize="16sp"
+        android:entries="@array/location_type"/>
+
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type_label"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/location_date"/>
+
+    <EditText
+        android:id="@+id/location_date_visited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/name_label"
+        android:layout_alignBaseline="@id/date_label"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:inputType="date"
+        android:hint="@string/date_hint"/>
+
+</RelativeLayout>

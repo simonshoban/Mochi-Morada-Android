@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mochi Morada</string>
+    <string name="new_places">Somewhere new</string>
+    <string name="old_places">Somewhere old</string>
+    <string name="random_place">Surprise me!</string>
+    <string name="add_item_button">Add new item</string>
+
+    <string name="location_name">Name</string>
+    <string name="name_hint">Location Name</string>
+    <string name="location_type">Type</string>
+
+    <string-array name="location_type">
+        <item>Restaurant</item>
+        <item>Bar</item>
+        <item>Cafe</item>
+        <item>Fast Food</item>
+        <item>Dessert</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string name="location_date">Date</string>
+    <string name="date_hint">1998&#8211;10&#8211;21</string>
+
+    <string name="location_old_placeholder">Type: %s\nFirst Visited: %s</string>
+    <string name="location_new_placeholder">Type: %s</string>
+    <string name="date_visited_placeholder">First Visited: %s</string>
+    <string name="search_for_a_location">Search for a location</string>
+    <string name="sort_button_text">Sort by</string>
+    <string name="name_ascending">Name Ascending</string>
+    <string name="name_descending">Name Descending</string>
+    <string name="type_ascending">Type Ascending</string>
+    <string name="type_descending">Type Descending</string>
+    <string name="date_ascending">Date Ascending</string>
+    <string name="date_descending">Date Descending</string>
+</resources>

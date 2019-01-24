@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/sort_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/sort_name_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_ascending"
+            android:tag="NAME_ASC"/>
+
+        <RadioButton
+            android:id="@+id/sort_name_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_descending"
+            android:tag="NAME_DESC"/>
+
+        <RadioButton
+            android:id="@+id/sort_type_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_ascending"
+            android:tag="TYPE_ASC"/>
+
+        <RadioButton
+            android:id="@+id/sort_type_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_descending"
+            android:tag="TYPE_DESC"/>
+
+        <RadioButton
+            android:id="@+id/sort_date_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_ascending"
+            android:tag="DATE_ASC"/>
+
+        <RadioButton
+            android:id="@+id/sort_date_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_descending"
+            android:tag="DATE_DESC"/>
+
+    </RadioGroup>
+
+</LinearLayout>
